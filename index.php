@@ -86,7 +86,7 @@
 
     <?php foreach($infos as $info){ ?>
 
-        <h1><?php echo $info['title']?></h1>
+        <h2><?php echo $info['title']?></h2>
         <p><?php echo $info['content']?></p>
     
     <?php } ?>

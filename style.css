@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
@@ -60,4 +61,12 @@ hr{
 
 main{
     width: 60vw;
+    margin: 0 auto
+
+}
+
+main h2{
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
