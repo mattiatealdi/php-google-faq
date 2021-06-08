@@ -75,11 +75,10 @@
             <li>Norme sulla Privacy</li>
             <li>Termini di servizio</li>
             <li>Tecnologie</li>
-            <li>Domande frequenti</li>
+            <li class="active">Domande frequenti</li>
         </ul>
     </nav>
     </header>
-    <hr>
 
     <div class="container">
     <main>

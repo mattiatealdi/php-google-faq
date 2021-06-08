@@ -7,9 +7,11 @@
 
 
 header{
-    height: 18vh;
+    height: 13vh;
     width: 100%;
-    margin-bottom: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    background-color: white;
 }
 
 .logo{
@@ -19,6 +21,7 @@ header{
 header .logo img{
     width: 5%;
     float: left; 
+    vertical-align: middle;
 }
 
 header .logo h3{
@@ -28,6 +31,7 @@ header .logo h3{
     padding-left: 10px;
     font-size: 1.25rem;
     color: gray;
+    vertical-align: middle;
 }
 
 img.account:last-of-type{
@@ -55,13 +59,12 @@ nav ul li{
     font-size: 1.1rem;
 }
 
-hr{
-    color: gray;
+.container{
+    padding-top: 150px;
 }
-
 main{
     width: 60vw;
-    margin: 0 auto
+    margin: 0 auto;
 
 }
 
@@ -69,4 +72,10 @@ main h2{
     font-weight: 300;
     margin-top: 50px;
     margin-bottom: 40px;
+}
+
+.active{
+    border-bottom: 5px solid blue;
+    padding-bottom: 30px;
+    color: blue;
 }
