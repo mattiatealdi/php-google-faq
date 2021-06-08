@@ -57,6 +57,35 @@
         ],
 
         
+    ];
+
+
+    $menu = [
+        [
+            'label' => 'Introduzione',
+            'href' => '#',
+            'status' => '',
+        ],
+        [
+            'label' => 'Norme sulla privacy',
+            'href' => '#',
+            'status' => '',
+        ],
+        [
+            'label' => 'Termini di servizio',
+            'href' => '#',
+            'status' => '',
+        ],
+        [
+            'label' => 'Tecnologie',
+            'href' => '#',
+            'status' => '',
+        ],
+        [
+            'label' => 'Domande freuquenti',
+            'href' => '#',
+            'status' => 'active',
+        ],
     ]
     
     
@@ -71,11 +100,14 @@
 
     <nav>
         <ul>
-            <li>Introduzione</li>
+            <!-- <li>Introduzione</li>
             <li>Norme sulla Privacy</li>
             <li>Termini di servizio</li>
             <li>Tecnologie</li>
-            <li class="active">Domande frequenti</li>
+            <li class="active">Domande frequenti</li> -->
+            <?php foreach($menu as $link){?>
+                <li><?php echo $link['label']?></li>
+            <?php } ?>
         </ul>
     </nav>
     </header>
